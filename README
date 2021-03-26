@@ -7,6 +7,6 @@ Team Members:
   Integration Manager: Raea Freund
 
 Brief Project Description:
-  A command-line application that calculates the shortest possible walking paths between the various buildings at UW-Madison’s campus. 
-  This application is useful for people trying   to find the fastest routes to each of the buildings according to their class schedule.
+  A command-line application that calculates the shortest possible walking path between the various buildings at UW-Madison’s campus. 
+  This application is useful for anyone trying to find the fastest route(s) to each of the campus buildings according to their class schedule.
 
