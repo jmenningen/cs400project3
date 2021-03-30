@@ -1,0 +1,55 @@
+0	Agricultural Hall	$	0	0	1	29	3	22	4	12	5	17	4	32	2	35	2	6	4				
+1	Babcock Hall	$	0	0	0	38	2	22	2	29	2	12	2										
+2	Bascom Hall	$	0	0	0	41	4	23	2	50	1	3	2	25	3	39	4						
+3	Birge Hall	$	0	0	0	2	2	50	2	45	2	8	2	24	2	25	2						
+4	Brogden Psychology Building	$	0	0	0	13	1	26	2	8	2	10	2	48	2	11	2	34	4				
+5	Camp Randall Stadium	$	0	0	1	15	3	48	4	43	15												
+6	Carson Gulley Center	$	0	0	0	0	4	42	2	29	4	52	6										
+7	Chadbourne Residence Hall	$	1	0	0	25	1	31	2	30	2	24	2	19	2	51	2						
+8	Chamberlin Hall	$	0	1	0	3	2	4	2	45	1	26	2	10	2	24	3						
+9	Chazen Museum of Art	$	0	0	0	30	1	20	1	27	3	53	3										
+10	Chemistry Building	$	0	0	0	4	2	8	2	34	2	14	2	11	3	24	3	19	3				
+11	Computer Sciences	$	0	0	0	4	2	10	3	48	1	13	2	34	3	46	4						
+12	DeLuca Biochemical Sciences Building	$	1	0	0	0	5	1	2	22	1	17	2	15	4	35	3						
+13	Discovery Building	$	1	0	0	4	1	11	2	48	2	26	2	17	2	15	2						
+14	Educational Sciences	$	0	0	1	10	2	34	2	46	1	19	2	24	3								
+15	Engineering Hall	$	1	0	1	5	3	12	4	13	2	17	3	48	2								
+16	Fluno Center	$	1	0	1	20	2	51	3	54	2												
+17	Genetics-Biotechnology Center Building	$	0	0	1	0	4	12	2	13	2	15	3	26	2	35	2						
+18	Gordon Dining and Event Center	$	1	0	0	51	2	40	2	36	2	33	2	54	2	20	4						
+19	Grainger Hall	$	1	1	1	7	2	10	3	14	2	24	2	30	3	51	2	40	2				
+20	Hamel Music Center	$	0	0	0	9	1	16	2	30	2	51	2	18	4	54	3						
+21	Helen C. White Hall	$	1	1	1	39	1	28	2	53	3	41	5										
+22	Horiticulture	$	0	0	0	0	4	1	2	12	1	29	2	38	2	35	4						
+23	Ingraham Hall	$	1	1	0	2	2	41	1	49	2	50	1	45	2	26	3	52	3				
+24	Lathrop Hall	$	0	0	0	3	2	7	2	8	3	10	3	14	3	19	2	25	2				
+25	Law Building	$	0	1	0	2	3	3	2	7	1	24	2	31	1	39	2						
+26	Medical Sciences Center	$	1	0	0	4	2	8	2	13	2	17	2	23	3	35	2	45	2				
+27	Memorial Library	$	0	1	0	9	3	37	2	28	3	53	2	30	3								
+28	Memorial Union	$	1	0	0	21	2	27	3	37	2	53	1	39	2								
+29	Microbial Sciences	$	1	0	1	0	3	1	2	6	4	22	2	38	2	44	2	42	3				
+30	Mosse Humanities Building	$	0	1	0	7	2	9	1	19	3	20	2	27	3	51	2	31	2	53	1	39	3
+31	Musice Hall	$	0	0	0	7	2	25	1	30	2	39	2	53	2								
+32	Nancy Nicholas Hall	$	0	0	1	0	2	35	2	49	2	52	3										
+33	Nicholas Recreation Center	$	0	0	0	18	2	40	3	36	2	47	2	54	2								
+34	Noland Hall	$	0	1	0	4	4	10	2	11	3	14	2	46	2								
+35	Nutritional Sciences	$	0	0	1	0	2	12	3	17	2	22	4	26	2	32	2	49	3				
+36	Ogg Residence Hall	$	0	0	0	18	2	33	2	43	3	46	4	40	2								
+37	Pyle Center	$	0	0	0	27	2	28	2	53	3												
+38	Russell Laboratories	$	0	0	0	1	2	22	2	29	2	44	1										
+39	Science Hall	$	0	1	0	2	4	21	1	25	2	28	2	31	2	53	2	30	3				
+40	Sellery Residence Hall	$	0	0	0	18	2	19	2	33	3	36	2	51	2	46	4						
+41	Sewell Social Sciences	$	0	1	0	2	4	21	5	23	1	52	2	49	3								
+42	Slichter Residence Hall	$	0	0	0	6	2	29	3	44	3												
+43	Smith Residence Hall	$	0	0	0	36	3	5	15														
+44	Steenbock Library	$	0	1	1	29	2	38	1	42	3												
+45	Sterling Hall	$	0	0	0	3	2	8	1	23	2	26	2	50	1	49	3						
+46	Teacher Education	$	0	0	0	11	4	14	1	34	2	36	4	40	4								
+47	The Kohl Center	$	0	0	0	33	2	54	3														
+48	Union South	$	1	0	1	4	2	5	4	11	1	13	2	15	2								
+49	Van Hise Hall	$	0	1	0	23	2	32	2	35	3	45	3	50	1	45	3	41	3	52	3		
+50	Van Vleck Hall	$	0	0	0	2	1	3	2	23	1	45	1	49	1								
+51	Vilas Hall	$	0	1	0	7	2	16	3	18	2	19	2	20	2	30	2	40	2				
+52	Waters Residence Hall	$	1	0	0	6	6	32	3	41	2	49	3	23	3								
+53	Wisconsin Historical Society	$	0	1	0	9	3	21	3	27	2	28	1	30	1	31	2	37	3	39	2		
+54	Witte Residence Hall	$	0	0	0	16	2	18	2	20	3	33	2	47	3								
