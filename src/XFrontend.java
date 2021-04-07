@@ -17,31 +17,22 @@ public class XFrontend {
             return;
         }
 
-        ArrayList<Building<Integer>> b = reader.getBuildingList();
-        try {
-            campusMap();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-        listBuilding(b, 2, 45);
-        //System.out.println(b.size());
+        new XFrontend(new BackendDummy(), reader.getBuildingList());
+    }
 
-        XBackend backend = new XBackend(b);
-
-        BackendInterface backendInterface; // TODO: XBackend should implement this
-
+    public XFrontend(BackendInterface backendInterface, ArrayList<Building<Integer>> b){
         List<Command> commands = buildCommandList();
 
         Scanner scnr = new Scanner(System.in);
         AtomicBoolean appRunning = new AtomicBoolean(true);
-        while (appRunning.get()) {
+        while (appRunning.get() && scnr.hasNext()) {
             printHeaderCard(commands);
             System.out.print("command >> ");
             String input = scnr.nextLine();
             for (Command command : commands){
                 String keyword = command.getKeyword();
                 if (input.length() >= keyword.length() && input.substring(0, keyword.length()).equals(keyword)){ // If input line matches a command keyword
-                    command.onRunCommand(input.split(" "), null, appRunning, b); // TODO: replace 'null' with the Backend once it is properly implemented
+                    command.onRunCommand(input.split(" "), backendInterface, appRunning, b); // TODO: replace 'null' with the Backend once it is properly implemented
                 }
             }
         }
@@ -130,10 +121,9 @@ public class XFrontend {
         for (Building<Integer> b : path) {
             String marker = (head) ? " * " : "-> ";
 
-            System.out.println(marker + b.getNumber() + "" + b.getName());
+            System.out.println(marker + b.getNumber() + " " + b.getName());
             head = false;
         }
-
     }
 
     public static void listBuilding(ArrayList<Building<Integer>> b, int buildingsPerRow, int columnWidth) {
