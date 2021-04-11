@@ -11,10 +11,10 @@ import java.util.List;
 
 public interface BackendInterface {
 
-    List<Building<Integer>> getShortestPath(PathfindingRequest pathfindingRequest);
+    List<Building<Integer>> getShortestPath(PathfindingRequest<Building<Integer>> pathfindingRequest);
 
-    int getShortestPathLength(PathfindingRequest pathfindingRequest);
+    int getShortestPathLength(PathfindingRequest<Building<Integer>> pathfindingRequest);
 
-    Building getBuildingOfNumber(int number);
+    Building<Integer> getBuildingOfNumber(int number);
 
 }

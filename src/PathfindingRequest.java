@@ -1,6 +1,6 @@
 
 
-public class PathfindingRequest<W extends Comparable<W>> {
+public class PathfindingRequest<W> {
 
     public enum RequestType {
         BUILDING, DINING, LIBRARY, PARKING
@@ -20,9 +20,7 @@ public class PathfindingRequest<W extends Comparable<W>> {
         return start;
     }
 
-    public Building getEnd() {
-        return end;
-    }
+    public Building getEnd() { return end; }
 
     public RequestType getRequestType() {
         return requestType;
